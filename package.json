@@ -4,7 +4,8 @@
   "description": "A.G.S Productions",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "node majam_i.js",
+    "test": "nodemon majam_i.js"
   },
   "repository": {
     "type": "git",
