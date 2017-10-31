@@ -1,0 +1,27 @@
+{
+  "name": "majam-bot",
+  "version": "1.0.0",
+  "description": "A.G.S Productions",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkaqua/majam-bot.git"
+  },
+  "keywords": [
+    "majam",
+    "ags",
+    "delicias"
+  ],
+  "author": "darkaqua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkaqua/majam-bot/issues"
+  },
+  "homepage": "https://github.com/darkaqua/majam-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
