@@ -24,7 +24,7 @@ majam.on('message', majam_m => {
         return;
     }
     // if majam_m
-    if(majam_m.content.toLowerCase().indexOf('majam') > -1)
+    if(/m([a4À-Æ]+)j([a4À-Æ]+)m/gi.test(majam_m.content))
         // majam_m.reply majam emoji majam
         majam_m.reply('<:majam:361304496862789652>');
 });
